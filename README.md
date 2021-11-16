@@ -30,6 +30,25 @@ Please make sure that you setup the following before starting the shell script.
 5) Ensure that you have valid [Docker Hub](https://hub.docker.com/) access
 6) Ensure that you have [installed kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
+Change the following parameters in terraform folder -> gke.tf:
+
+```sh
+resource "null_resource" "hana-install" {
+  provisioner "local-exec" {
+      environment = {
+        DOCKER_USERNAME = "CHANGE_ME"
+        DOCKER_PASSWORD = "CHANGE_ME"
+        DOCKER_EMAIL = "CHANGE_ME"
+        HANA_PASSWORD = "CHANGE_ME"
+      }
+```
+
+Change the following parameters in terraform folder -> terraform.tfvars:
+
+```sh
+project_id = "CHANGE_ME"
+region     = "us-central1"
+```
 
 ### About the Terraform template 
 
