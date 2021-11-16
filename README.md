@@ -1,5 +1,5 @@
 ```sh
-Deplyoing SAP HANA, express edition on Google Kubernetes Engine (GKE)
+Deplyoing SAP HANA, express edition on Google Kubernetes Engine (GKE) with Terraform
 ```
 
 This project is about to provide an automated way to deploy SAP HANA, express edition to Google Kubernetes Engine (GKE).
