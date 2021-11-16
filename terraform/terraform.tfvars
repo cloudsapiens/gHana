@@ -1,2 +1,2 @@
-project_id = "big-calling-112315"
+project_id = "CHANGE_ME"
 region     = "us-central1"
