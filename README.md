@@ -1,4 +1,3 @@
-[![heks logo](https://github.com/cloudsapiens/heks/blob/main/heks-logo.png)](https://github.com/cloudsapiens/heks)
 ```sh
 Deplyoing SAP HANA, express edition on Google Kubernetes Engine (GKE)
 ```
@@ -11,9 +10,6 @@ AWS services used for this solution:
   - BASH
 
 Source of the SAP HANA, Express Edition (private repository):  [Docker Hub](https://hub.docker.com/_/sap-hana-express-edition)
-
-# Architecture
-[![heks architecture](https://github.com/cloudsapiens/heks/blob/main/architecture.png)](https://github.com/cloudsapiens/heks/blob/main/imgs/architecture.png) 
 
 # About SAP HANA, express edition
 ```SAP HANA, express edition``` is a streamlined version of the SAP HANA platform which enables developers to jumpstart application development in the cloud or personal computer to build and deploy modern applications that use up to 32GB memory. SAP HANA, express edition includes the in-memory data engine with advanced analytical data processing engines for business, text, spatial, and graph data - supporting multiple data models on a single copy of the data. 
